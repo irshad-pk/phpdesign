@@ -1,0 +1,233 @@
+@charset "utf-8";
+@font-face {
+
+	font-family: 'Al-Jazeera-Arabic';
+	src: url('../fonts/Al-Jazeera-Arabic-Light.eot');
+	src: url('../fonts/Al-Jazeera-Arabic-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Al-Jazeera-Arabic-Light.woff2') format('woff2'),
+	url('../fonts/Al-Jazeera-Arabic-Light.woff') format('woff'),
+	url('../fonts/Al-Jazeera-Arabic-Light.ttf') format('truetype'),
+	url('../fonts/Al-Jazeera-Arabic-Light.svg#Al-Jazeera-Arabic-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al-Jazeera-Arabic';
+	src: url('../fonts/Al-Jazeera-Arabic-Regular.eot');
+	src: url('../fonts/Al-Jazeera-Arabic-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Al-Jazeera-Arabic-Regular.woff2') format('woff2'),
+	url('../fonts/Al-Jazeera-Arabic-Regular.woff') format('woff'),
+	url('../fonts/Al-Jazeera-Arabic-Regular.ttf') format('truetype'),
+	url('../fonts/Al-Jazeera-Arabic-Regular.svg#Al-Jazeera-Arabic-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al-Jazeera-Arabic';
+	src: url('../fonts/Al-Jazeera-Arabic-Heavy.eot');
+	src: url('../fonts/Al-Jazeera-Arabic-Heavy.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Al-Jazeera-Arabic-Heavy.woff2') format('woff2'),
+	url('../fonts/Al-Jazeera-Arabic-Heavy.woff') format('woff'),
+	url('../fonts/Al-Jazeera-Arabic-Heavy.ttf') format('truetype'),
+	url('../fonts/Al-Jazeera-Arabic-Heavy.svg#Al-Jazeera-Arabic-Heavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al-Jazeera-Arabic';
+	src: url('../fonts/Al-Jazeera-Arabic-Bold.eot');
+	src: url('../fonts/Al-Jazeera-Arabic-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Al-Jazeera-Arabic-Bold.woff2') format('woff2'),
+	url('../fonts/Al-Jazeera-Arabic-Bold.woff') format('woff'),
+	url('../fonts/Al-Jazeera-Arabic-Bold.ttf') format('truetype'),
+	url('../fonts/Al-Jazeera-Arabic-Bold.svg#Al-Jazeera-Arabic-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 60 Demi';
+	src: url('../fonts/AlJazeera-Latin-60DemiBold.eot');
+	src: url('../fonts/AlJazeera-Latin-60DemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-60DemiBold.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-60DemiBold.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-60DemiBold.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-60DemiBold.svg#AlJazeera-Latin-60DemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 65 Semi';
+	src: url('../fonts/AlJazeera-Latin-65SemiBold.eot');
+	src: url('../fonts/AlJazeera-Latin-65SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-65SemiBold.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-65SemiBold.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-65SemiBold.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-65SemiBold.svg#AlJazeera-Latin-65SemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 80 Extra';
+	src: url('../fonts/AlJazeera-Latin-80ExtraBold.eot');
+	src: url('../fonts/AlJazeera-Latin-80ExtraBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-80ExtraBold.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-80ExtraBold.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-80ExtraBold.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-80ExtraBold.svg#AlJazeera-Latin-80ExtraBold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 50';
+	src: url('../fonts/AlJazeera-Latin-50Medium.eot');
+	src: url('../fonts/AlJazeera-Latin-50Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-50Medium.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-50Medium.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-50Medium.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-50Medium.svg#AlJazeera-Latin-50Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 100';
+	src: url('../fonts/AlJazeera-Latin-100Heavy.eot');
+	src: url('../fonts/AlJazeera-Latin-100Heavy.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-100Heavy.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-100Heavy.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-100Heavy.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-100Heavy.svg#AlJazeera-Latin-100Heavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 20 Ultra';
+	src: url('../fonts/AlJazeera-Latin-20UltraThin.eot');
+	src: url('../fonts/AlJazeera-Latin-20UltraThin.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-20UltraThin.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-20UltraThin.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-20UltraThin.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-20UltraThin.svg#AlJazeera-Latin-20UltraThin') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 70';
+	src: url('../fonts/AlJazeera-Latin-70Bold.eot');
+	src: url('../fonts/AlJazeera-Latin-70Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-70Bold.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-70Bold.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-70Bold.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-70Bold.svg#AlJazeera-Latin-70Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 75 Ultra';
+	src: url('../fonts/AlJazeera-Latin-75UltraBold.eot');
+	src: url('../fonts/AlJazeera-Latin-75UltraBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-75UltraBold.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-75UltraBold.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-75UltraBold.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-75UltraBold.svg#AlJazeera-Latin-75UltraBold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 120 Ex';
+	src: url('../fonts/AlJazeera-Latin-120ExtraHeavy.eot');
+	src: url('../fonts/AlJazeera-Latin-120ExtraHeavy.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-120ExtraHeavy.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-120ExtraHeavy.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-120ExtraHeavy.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-120ExtraHeavy.svg#AlJazeera-Latin-120ExtraHeavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 22';
+	src: url('../fonts/AlJazeera-Latin-22Thin.eot');
+	src: url('../fonts/AlJazeera-Latin-22Thin.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-22Thin.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-22Thin.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-22Thin.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-22Thin.svg#AlJazeera-Latin-22Thin') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 30';
+	src: url('../fonts/AlJazeera-Latin-30Light.eot');
+	src: url('../fonts/AlJazeera-Latin-30Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-30Light.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-30Light.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-30Light.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-30Light.svg#AlJazeera-Latin-30Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 40';
+	src: url('fonts/AlJazeera-Latin-40Regular.eot');
+	src: url('fonts/AlJazeera-Latin-40Regular.eot?#iefix') format('embedded-opentype'),
+	url('fonts/AlJazeera-Latin-40Regular.woff2') format('woff2'),
+	url('fonts/AlJazeera-Latin-40Regular.woff') format('woff'),
+	url('fonts/AlJazeera-Latin-40Regular.ttf') format('truetype'),
+	url('fonts/AlJazeera-Latin-40Regular.svg#AlJazeera-Latin-40Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 90';
+	src: url('../fonts/AlJazeera-Latin-90Black.eot');
+	src: url('../fonts/AlJazeera-Latin-90Black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-90Black.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-90Black.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-90Black.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-90Black.svg#AlJazeera-Latin-90Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 110 Ultra';
+	src: url('../fonts/AlJazeera-Latin-110UltraHeavy.eot');
+	src: url('../fonts/AlJazeera-Latin-110UltraHeavy.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-110UltraHeavy.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-110UltraHeavy.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-110UltraHeavy.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-110UltraHeavy.svg#AlJazeera-Latin-110UltraHeavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Al Jazeera-Latin 25 Ultra';
+	src: url('../fonts/AlJazeera-Latin-25UltraLight.eot');
+	src: url('../fonts/AlJazeera-Latin-25UltraLight.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AlJazeera-Latin-25UltraLight.woff2') format('woff2'),
+	url('../fonts/AlJazeera-Latin-25UltraLight.woff') format('woff'),
+	url('../fonts/AlJazeera-Latin-25UltraLight.ttf') format('truetype'),
+	url('../fonts/AlJazeera-Latin-25UltraLight.svg#AlJazeera-Latin-25UltraLight') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+body {
+	font-family: "Al Jazeera-Latin 40", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 14px;
+}

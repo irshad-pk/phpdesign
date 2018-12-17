@@ -1,0 +1,469 @@
+@charset "utf-8";
+@font-face {
+
+  font-family: 'Al-Jazeera-Arabic';
+  src: url('../fonts/Al-Jazeera-Arabic-Light.eot');
+  src: url('../fonts/Al-Jazeera-Arabic-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Al-Jazeera-Arabic-Light.woff2') format('woff2'),
+  url('../fonts/Al-Jazeera-Arabic-Light.woff') format('woff'),
+  url('../fonts/Al-Jazeera-Arabic-Light.ttf') format('truetype'),
+  url('../fonts/Al-Jazeera-Arabic-Light.svg#Al-Jazeera-Arabic-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al-Jazeera-Arabic';
+  src: url('../fonts/Al-Jazeera-Arabic-Regular.eot');
+  src: url('../fonts/Al-Jazeera-Arabic-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Al-Jazeera-Arabic-Regular.woff2') format('woff2'),
+  url('../fonts/Al-Jazeera-Arabic-Regular.woff') format('woff'),
+  url('../fonts/Al-Jazeera-Arabic-Regular.ttf') format('truetype'),
+  url('../fonts/Al-Jazeera-Arabic-Regular.svg#Al-Jazeera-Arabic-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al-Jazeera-Arabic';
+  src: url('../fonts/Al-Jazeera-Arabic-Heavy.eot');
+  src: url('../fonts/Al-Jazeera-Arabic-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Al-Jazeera-Arabic-Heavy.woff2') format('woff2'),
+  url('../fonts/Al-Jazeera-Arabic-Heavy.woff') format('woff'),
+  url('../fonts/Al-Jazeera-Arabic-Heavy.ttf') format('truetype'),
+  url('../fonts/Al-Jazeera-Arabic-Heavy.svg#Al-Jazeera-Arabic-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al-Jazeera-Arabic';
+  src: url('../fonts/Al-Jazeera-Arabic-Bold.eot');
+  src: url('../fonts/Al-Jazeera-Arabic-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Al-Jazeera-Arabic-Bold.woff2') format('woff2'),
+  url('../fonts/Al-Jazeera-Arabic-Bold.woff') format('woff'),
+  url('../fonts/Al-Jazeera-Arabic-Bold.ttf') format('truetype'),
+  url('../fonts/Al-Jazeera-Arabic-Bold.svg#Al-Jazeera-Arabic-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 60 Demi';
+  src: url('../fonts/AlJazeera-Latin-60DemiBold.eot');
+  src: url('../fonts/AlJazeera-Latin-60DemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-60DemiBold.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-60DemiBold.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-60DemiBold.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-60DemiBold.svg#AlJazeera-Latin-60DemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 65 Semi';
+  src: url('../fonts/AlJazeera-Latin-65SemiBold.eot');
+  src: url('../fonts/AlJazeera-Latin-65SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-65SemiBold.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-65SemiBold.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-65SemiBold.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-65SemiBold.svg#AlJazeera-Latin-65SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 80 Extra';
+  src: url('../fonts/AlJazeera-Latin-80ExtraBold.eot');
+  src: url('../fonts/AlJazeera-Latin-80ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-80ExtraBold.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-80ExtraBold.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-80ExtraBold.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-80ExtraBold.svg#AlJazeera-Latin-80ExtraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 50';
+  src: url('../fonts/AlJazeera-Latin-50Medium.eot');
+  src: url('../fonts/AlJazeera-Latin-50Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-50Medium.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-50Medium.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-50Medium.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-50Medium.svg#AlJazeera-Latin-50Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 100';
+  src: url('../fonts/AlJazeera-Latin-100Heavy.eot');
+  src: url('../fonts/AlJazeera-Latin-100Heavy.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-100Heavy.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-100Heavy.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-100Heavy.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-100Heavy.svg#AlJazeera-Latin-100Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 20 Ultra';
+  src: url('../fonts/AlJazeera-Latin-20UltraThin.eot');
+  src: url('../fonts/AlJazeera-Latin-20UltraThin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-20UltraThin.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-20UltraThin.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-20UltraThin.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-20UltraThin.svg#AlJazeera-Latin-20UltraThin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 70';
+  src: url('../fonts/AlJazeera-Latin-70Bold.eot');
+  src: url('../fonts/AlJazeera-Latin-70Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-70Bold.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-70Bold.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-70Bold.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-70Bold.svg#AlJazeera-Latin-70Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 75 Ultra';
+  src: url('../fonts/AlJazeera-Latin-75UltraBold.eot');
+  src: url('../fonts/AlJazeera-Latin-75UltraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-75UltraBold.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-75UltraBold.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-75UltraBold.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-75UltraBold.svg#AlJazeera-Latin-75UltraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 120 Ex';
+  src: url('../fonts/AlJazeera-Latin-120ExtraHeavy.eot');
+  src: url('../fonts/AlJazeera-Latin-120ExtraHeavy.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-120ExtraHeavy.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-120ExtraHeavy.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-120ExtraHeavy.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-120ExtraHeavy.svg#AlJazeera-Latin-120ExtraHeavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 22';
+  src: url('../fonts/AlJazeera-Latin-22Thin.eot');
+  src: url('../fonts/AlJazeera-Latin-22Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-22Thin.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-22Thin.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-22Thin.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-22Thin.svg#AlJazeera-Latin-22Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 30';
+  src: url('../fonts/AlJazeera-Latin-30Light.eot');
+  src: url('../fonts/AlJazeera-Latin-30Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-30Light.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-30Light.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-30Light.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-30Light.svg#AlJazeera-Latin-30Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 40';
+  src: url('fonts/AlJazeera-Latin-40Regular.eot');
+  src: url('fonts/AlJazeera-Latin-40Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AlJazeera-Latin-40Regular.woff2') format('woff2'),
+  url('fonts/AlJazeera-Latin-40Regular.woff') format('woff'),
+  url('fonts/AlJazeera-Latin-40Regular.ttf') format('truetype'),
+  url('fonts/AlJazeera-Latin-40Regular.svg#AlJazeera-Latin-40Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 90';
+  src: url('../fonts/AlJazeera-Latin-90Black.eot');
+  src: url('../fonts/AlJazeera-Latin-90Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-90Black.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-90Black.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-90Black.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-90Black.svg#AlJazeera-Latin-90Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 110 Ultra';
+  src: url('../fonts/AlJazeera-Latin-110UltraHeavy.eot');
+  src: url('../fonts/AlJazeera-Latin-110UltraHeavy.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-110UltraHeavy.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-110UltraHeavy.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-110UltraHeavy.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-110UltraHeavy.svg#AlJazeera-Latin-110UltraHeavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Al Jazeera-Latin 25 Ultra';
+  src: url('../fonts/AlJazeera-Latin-25UltraLight.eot');
+  src: url('../fonts/AlJazeera-Latin-25UltraLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-25UltraLight.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-25UltraLight.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-25UltraLight.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-25UltraLight.svg#AlJazeera-Latin-25UltraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "Al Jazeera-Latin 40", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 14px;
+}
+body ,html {
+  height: 100%;
+}
+.firstnav{
+  border-right: 5px solid green;
+}
+/* The sidebar menu */
+.sidenav {
+  padding-top: 100px;
+}
+.nav-padding {
+  padding: unset;
+}
+.sidenav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.sidenav ul li.social {
+  background-color: #262967;
+  border-radius: 20px;
+  margin: 2px;
+}
+.sidenav ul.menu-link{
+  margin-bottom: 245px;
+}
+.sidenav ul li.social .fa {
+  padding: 10px;
+  color: #FFF;
+}
+.language-switcher a {
+  line-height: 2;
+  font-size: 18px;
+}
+.search-form input {
+  border: 1px solid #000;
+  padding: 4px;
+  margin-right: -33px;
+  width: 215px;
+}
+.search-form button {
+  background-color: #000;
+  height: 30px;
+}
+
+.big {
+  font-weight: bold;
+}
+
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 1px;
+  text-decoration: none;
+  /* font-size: 15px; */
+  color: black;
+  display: inline-block;
+  margin-right: 42px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: grey;
+}
+a.active {
+  color: green;
+}
+.right{
+  border-right: 5px solid green;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/* Style page content */
+.main {
+  padding: 0px 10px;
+}
+
+.style-h2 {
+  /* font-family: "Al Jazeera-Latin 90"; */
+  color: green;
+  font-size: 30px;
+  padding-top: 15px;
+}
+.bolde {
+  font-weight: bold;
+}
+.fitimg {
+  width: 282px;
+}
+.btm-border {
+  border-bottom: 2px solid green;
+  padding-bottom: 10px;
+}
+.left-card {
+  max-width: 50%;
+  float: left;
+  padding-right: 10px;
+}
+.card-top {
+  margin-top: 50px;
+}
+.btn-center{
+  padding: 8px 100px;
+  background-color: white;
+  border: 1px solid green;
+  margin: 25px 520px;
+}
+.lg-num{
+  color: green;
+  font-size: 95px;
+  padding: 25px 50px;
+  border-right: 1px solid green;
+}
+.mg-top{
+  margin-top: 35px;
+}
+.mg-left{
+  margin-left: -15px;
+}
+.h-center{
+  font-size: 5.5rem;
+  padding-top: 115px;
+  color: black;
+}
+.p-style {
+  font-size:25px;
+}
+.btn-enlarge {
+  padding: 10px 45px;
+  color: white;
+  font-size: 15px;
+}
+.style-h1 {
+  font-size: 40px;
+}
+.e-style {
+  background-color: green;
+  color: white;
+}
+.e-text {
+  font-size: 30px;
+  font-weight: normal;
+  padding: 10px 70px;
+}
+.e-id {
+  font-size: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+.bg {
+  background-image: url(https://picsum.photos/1200/800?image=6);
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.outer-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding-top: 300px;
+}
+
+.inner-wrapper {
+  display:table-cell;
+  vertical-align:middle;
+
+}
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding-left: 5px;
+  padding-top: 5px;
+  pointer-events: none;
+}
+/* align icon */
+.left-addon .glyphicon  {
+  left:  0px;
+}
+/* add padding  */
+.left-addon input  {
+  padding-left:  30px;
+}
+.inp-style {
+  background: none;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  margin-bottom: 25px;
+  border-bottom-color: lightskyblue;
+}
+/* .glyphicon-style {
+  background-color: white;
+} */
+.text-style {
+  color: darkgoldenrod;
+}
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+.link {
+  color: darkgrey;
+}
+.btn-form {
+  padding: 8px 100px;
+  background-color: rgb(75, 156, 53);
+  border: 1px solid rgb(75, 156, 53);
+  margin: 5px 60px;
+  color: white;
+  border-radius: 100px;
+}
+.output-overimg {
+  position: absolute;
+  bottom: 300px;
+  right: 700px;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
